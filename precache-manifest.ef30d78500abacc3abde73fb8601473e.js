@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d1c6ba3ed0f0e68e718c3b094e362a37",
+    "revision": "2a629f863b795f82686d9b6d34304e79",
     "url": "/fcc-markdown-previewer/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/fcc-markdown-previewer/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "9cb51e80e6a468baf84c",
-    "url": "/fcc-markdown-previewer/static/css/main.7ed5e0e0.chunk.css"
+    "revision": "3e3c404df6335edd440f",
+    "url": "/fcc-markdown-previewer/static/css/main.7a05d9b1.chunk.css"
   },
   {
     "revision": "2085d534cb1472246681",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/fcc-markdown-previewer/static/js/2.6032fe09.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9cb51e80e6a468baf84c",
-    "url": "/fcc-markdown-previewer/static/js/main.9689573c.chunk.js"
+    "revision": "3e3c404df6335edd440f",
+    "url": "/fcc-markdown-previewer/static/js/main.40073d9a.chunk.js"
   },
   {
     "revision": "71b3aad188744e00b565",
