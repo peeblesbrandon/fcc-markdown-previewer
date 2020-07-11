@@ -51,7 +51,7 @@ It goes on multiple lines\n
               </Accordion.Toggle>
             </Card.Header>
             <Accordion.Collapse eventKey="0">
-              <Card.Body className="p-0">
+              <Card.Body className="p-0 m-0">
                 <Editor markdownText={this.state.input} onMarkdownChange={this.handleMarkdownChange}/>
               </Card.Body>
             </Accordion.Collapse>
@@ -59,7 +59,7 @@ It goes on multiple lines\n
         </Accordion>
         <Accordion defaultActiveKey="0">
           <Card>
-            <Card.Header className="p-0">
+            <Card.Header className="p-0 m-0">
               <Accordion.Toggle as={Button} variant="light" eventKey="0">
                 <strong>Previewer</strong>
               </Accordion.Toggle>
