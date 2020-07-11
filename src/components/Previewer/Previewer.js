@@ -3,9 +3,10 @@ import './Previewer.css';
 import marked from 'marked';
 
 class Previewer extends React.Component {
-    constructor(props) {
-        super(props);
-    }
+    // remove constructor bc not needed
+    // constructor(props) {
+    //     super(props);
+    // }
 
     convertMarkdown(text) {
         return;
@@ -18,7 +19,7 @@ class Previewer extends React.Component {
         const convertedText = marked(this.props.markdownText);
         return (
             <div>
-                <td dangerouslySetInnerHTML={{ __html: convertedText }} />
+                <td id="preview" dangerouslySetInnerHTML={{ __html: convertedText }}></td>
             </div>
             );
     }
