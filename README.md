@@ -1,3 +1,14 @@
+# Markdown Previewer
+A minimalist text editor app for writing markdown text and previewing the rendered HTML output. Created using ReactJS according to build specs from freeCodeCamp  [here](https://www.freecodecamp.org/learn/front-end-libraries/front-end-libraries-projects/build-a-markdown-previewer).
+
+
+
+
+
+
+
+---
+## Standard Create-React-App readme below here:
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
