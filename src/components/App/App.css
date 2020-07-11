@@ -1,0 +1,23 @@
+.accordion {
+  background-color: grey;
+}
+
+.btn {
+  /* text-align: left; */
+  width: 100%;
+  padding: 5;
+  margin: 0;
+  border-radius: 0;
+  border: 0px;
+}
+
+#signature {
+  display: flex;
+  margin-top: 10px;
+  left: 0;
+  right: 0;
+  color: grey;
+  justify-content: center;
+  text-align: center;
+  position: fixed;
+}
