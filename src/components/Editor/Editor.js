@@ -14,7 +14,7 @@ class Editor extends React.Component {
     render() {
         const markdownText = this.props.markdownText;
         return (
-            <div>
+            <div className="container-fluid">
                 <textarea id="editor" onChange={this.handleChange} value={markdownText} rows="10" className="form-control h-80" />
             </div>
         );

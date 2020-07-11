@@ -15,7 +15,7 @@ class Previewer extends React.Component {
         const convertedText = marked(this.props.markdownText);
         console.log(convertedText);
         return (
-            <div>
+            <div className="container-fluid text-break m-0 p-0">
                 <td id="preview" dangerouslySetInnerHTML={{ __html: convertedText }}></td>
             </div>
             );

@@ -36,7 +36,7 @@ It goes on multiple lines\n
   render() {
     console.log("This is the process.env", process.env.PUBLIC_URL)
     return (
-      <div>
+      <div className="container-fluid m-0 p-0">
         <Navbar fluid fixed="sticky" bg="dark" variant="dark">
           <Navbar.Brand>
             <h4 className="h4">Markdown Previewer</h4>

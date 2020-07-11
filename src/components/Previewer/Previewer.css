@@ -1,3 +1,12 @@
+div { 
+    width: 100vw;
+}
+
+img {
+    max-width: 100%; 
+    height: auto;
+}
+
 p {
     white-space: pre-line;
 }
