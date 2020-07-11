@@ -3,3 +3,7 @@
     color: greenyellow;
     width: 100%;
 }
+
+.navbar {
+    word-wrap: break-word;
+}

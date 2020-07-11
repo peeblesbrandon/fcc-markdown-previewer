@@ -38,11 +38,11 @@ It goes on multiple lines\n
   render() {
     console.log("This is the process.env", process.env.PUBLIC_URL)
     return (
-      <div className="container-fluid m-0 p-0">
-        <Navbar fluid fixed="sticky" bg="dark" variant="dark">
-          <Navbar.Brand>
-            <h4 className="h4">Markdown Previewer</h4>
-            <h6 className="text-light text-muted">Tap below to expand the Editor and get started</h6>
+      <div className="container fluid m-0 p-0 vw-100">
+        <Navbar fixed="sticky" bg="dark" variant="dark">
+          <Navbar.Brand className="text-break vw-100">
+            <h4 className="d-block">Markdown Previewer</h4>
+            <p className="d-block text-light text-muted text-break">To get started converting markdown text, tap below to expand the Editor or Previewer</p>
           </Navbar.Brand>
         </Navbar>
         <Accordion defaultActiveKey="1">
@@ -59,7 +59,7 @@ It goes on multiple lines\n
             </Accordion.Collapse>
           </Card>
         </Accordion>
-        <Accordion defaultActiveKey="0">
+        <Accordion defaultActiveKey="1">
           <Card>
             <Card.Header className="p-0 m-0">
               <Accordion.Toggle as={Button} variant="light" eventKey="0">
