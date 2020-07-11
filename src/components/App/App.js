@@ -10,8 +10,10 @@ class App extends React.Component {
     this.state = {
       input: 
 `# Welcome to the Markdown Previewer\r
-## Created by Brandon Peebles\n
-[Here's a link to his GitHub](https://github.com/peeblesbrandon)\r
+#### Created by Brandon Peebles\r
+[Here's a link to this app's GitHub repo](https://github.com/peeblesbrandon/fcc-markdown-previewer)\r
+## Enter your GitHub flavored markdown here.\r
+## Then, look at the Previewer bar below to see it converted into HTML and rendered.\n
 \`Here's some inline code\`\r
 \`\`\`
 Here's a code block.\r
