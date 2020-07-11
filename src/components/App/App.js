@@ -34,12 +34,13 @@ It goes on multiple lines\n
   }
 
   render() {
+    console.log("This is the process.env", process.env.PUBLIC_URL)
     return (
       <div>
         <Navbar fluid fixed="sticky" bg="dark" variant="dark">
           <Navbar.Brand>
             <h4 className="h4">Markdown Previewer</h4>
-            <h6 className="text-light text-muted">Tap the editor below to get started</h6>
+            <h6 className="text-light text-muted">Tap below to expand the Editor and get started</h6>
           </Navbar.Brand>
         </Navbar>
         <Accordion defaultActiveKey="1">
