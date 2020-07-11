@@ -14,6 +14,8 @@ code {
 
 #root {
   width: 100vw;
-  height: 100vh;
+  max-width: 100vw;
+  min-height: 100vh;
+  padding-bottom: 50px;
   background-color: #343a40!important;
 }

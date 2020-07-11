@@ -1,10 +1,15 @@
+#app_body {
+  max-width: 1100px;
+  height: auto;
+}
+
 .accordion {
   background-color: grey;
 }
 
 .btn {
   /* text-align: left; */
-  width: 100vw;
+  width: 100%;
   padding: 5;
   margin: 0;
   border-radius: 0;

@@ -38,43 +38,43 @@ It goes on multiple lines\n
   render() {
     console.log("This is the process.env", process.env.PUBLIC_URL)
     return (
-      <div className="container fluid m-0 p-0 vw-100">
-        <Navbar fixed="sticky" bg="dark" variant="dark">
-          <Navbar.Brand className="text-break vw-100">
-            <h4 className="d-block">Markdown Previewer</h4>
-            <p className="d-block text-light text-muted text-break">To get started converting markdown text, tap below to expand the Editor or Previewer</p>
-          </Navbar.Brand>
-        </Navbar>
-        <Accordion defaultActiveKey="1">
-          <Card>
-            <Card.Header className="p-0">
-              <Accordion.Toggle as={Button} variant="light" eventKey="0">
-                <strong>Editor</strong>
-              </Accordion.Toggle>
-            </Card.Header>
-            <Accordion.Collapse eventKey="0">
+        <div id="app_body" className="container-fluid">
+          <Navbar fixed="sticky" bg="dark" variant="dark">
+            <Navbar.Brand className="text-break vw-100">
+              <h4 className="d-block">Markdown Previewer</h4>
+              <p className="d-block text-light text-muted text-break">To get started converting markdown text, tap below to expand the Editor or Previewer</p>
+            </Navbar.Brand>
+          </Navbar>
+          <Accordion defaultActiveKey="1">
+            <Card>
+              <Card.Header className="p-0">
+                <Accordion.Toggle as={Button} variant="light" eventKey="0">
+                  <strong>Editor</strong>
+                </Accordion.Toggle>
+              </Card.Header>
+              <Accordion.Collapse eventKey="0">
+                <Card.Body className="p-0 m-0">
+                  <Editor markdownText={this.state.input} onMarkdownChange={this.handleMarkdownChange}/>
+                </Card.Body>
+              </Accordion.Collapse>
+            </Card>
+          </Accordion>
+          <Accordion defaultActiveKey="1">
+            <Card>
+              <Card.Header className="p-0 m-0">
+                <Accordion.Toggle as={Button} variant="light" eventKey="0">
+                  <strong>Previewer</strong>
+                </Accordion.Toggle>
+              </Card.Header>
+              <Accordion.Collapse eventKey="0">
               <Card.Body className="p-0 m-0">
-                <Editor markdownText={this.state.input} onMarkdownChange={this.handleMarkdownChange}/>
+                  <Previewer markdownText={this.state.input} />
               </Card.Body>
-            </Accordion.Collapse>
-          </Card>
-        </Accordion>
-        <Accordion defaultActiveKey="1">
-          <Card>
-            <Card.Header className="p-0 m-0">
-              <Accordion.Toggle as={Button} variant="light" eventKey="0">
-                <strong>Previewer</strong>
-              </Accordion.Toggle>
-            </Card.Header>
-            <Accordion.Collapse eventKey="0">
-              <Card.Body>
-                <Previewer markdownText={this.state.input} />
-            </Card.Body>
-            </Accordion.Collapse>
-          </Card>
-        </Accordion>
-        <em id="signature">Created by Brandon Peebles - 2020</em>
-      </div>
+              </Accordion.Collapse>
+            </Card>
+          </Accordion>
+          <em id="signature">Created by Brandon Peebles - 2020</em>
+        </div>
     );
   }
 }
