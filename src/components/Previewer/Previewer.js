@@ -8,15 +8,12 @@ class Previewer extends React.Component {
     //     super(props);
     // }
 
-    convertMarkdown(text) {
-        return;
-    }
-
     render() {
         marked.setOptions({
             gfm: true
         });
         const convertedText = marked(this.props.markdownText);
+        console.log(convertedText);
         return (
             <div>
                 <td id="preview" dangerouslySetInnerHTML={{ __html: convertedText }}></td>
